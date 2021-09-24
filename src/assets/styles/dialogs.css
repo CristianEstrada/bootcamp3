@@ -1,0 +1,52 @@
+.p-dialog {
+    border-radius: 15px !important;
+    border: none !important;
+}
+.p-dialog .p-dialog-content {
+    border-radius: 15px !important;
+    padding: 0 !important;
+}
+
+/* CONFIRM DIALOG */
+.p-confirm-dialog .p-dialog-content {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.p-confirm-dialog .p-dialog-footer {
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: var(--color-4);
+    color: var(--text-color);
+    border: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* TOAST */
+.p-toast .p-toast-message {
+    border-radius: 10px;
+}
+
+.p-toast .p-toast-message.p-toast-message-success {
+    background: #00d986;
+    border: none;
+    color: white;
+    font-weight: 900;
+}
+
+.p-toast .p-toast-message.p-toast-message-error {
+    background: #d90024;
+    border: none;
+    color: #d90024;
+    color: white;
+    font-weight: 900;
+}
+
+.p-toast .p-toast-message.p-toast-message-success .p-toast-message-icon,
+.p-toast .p-toast-message.p-toast-message-error .p-toast-message-icon {
+    display: none;
+}
+.p-toast .p-toast-message.p-toast-message-success .p-toast-icon-close,
+.p-toast .p-toast-message.p-toast-message-error .p-toast-icon-close {
+    color: white;
+}

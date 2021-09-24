@@ -1,0 +1,28 @@
+:root {
+    --color-1: #2b5ac4;
+    --color-2: #00b7ff;
+    --color-3: #00d986;
+    --color-4: #f4f3f8;
+    --color-5: #d0d0d0;
+    --text-color: #333333;
+}
+
+.bg-main {
+    background: var(--color-1);
+}
+
+.bg-light {
+    background: var(--color-4) !important;
+}
+
+.bg-white {
+    background: white !important;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.text-main {
+    color: var(--color-1) !important;
+}
